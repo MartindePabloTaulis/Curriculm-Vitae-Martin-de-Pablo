@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tu Nombre - Curriculum Vitae</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  .cv-section {
+    margin-bottom: 30px;
+  }
+  .cv-section h2 {
+    margin-bottom: 10px;
+  }
+  .cv-link {
+    display: block;
+    margin-top: 5px;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Tu Nombre</h1>
+  </header>
+  <section class="cv-section">
+    <h2>Curriculum Vitae (Español)</h2>
+    <p>Aquí puedes descargar mi currículum en español:</p>
+    <a class="cv-link" href="ruta/a/tu/cv-espanol.pdf" download>Currículum en Español</a>
+  </section>
+  <section class="cv-section">
+    <h2>Curriculum Vitae (English)</h2>
+    <p>You can download my curriculum vitae in English:</p>
+    <a class="cv-link" href="ruta/a/tu/cv-english.pdf" download>Curriculum in English</a>
+  </section>
+</body>
+</html>
